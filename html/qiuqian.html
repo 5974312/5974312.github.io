@@ -72,7 +72,7 @@
       100%{left: 50%;}
     }
     .bottom{
-        top: 200px;;
+        bottom: 0px;
         width: 300px;
         height: 300px;
         margin: auto;
@@ -217,6 +217,14 @@
         background-color: rgb(34, 30, 20);
         transform: rotate(20deg);
         position: absolute;
+        animation:shou1 2s linear infinite;
+    }
+    @keyframes shou1{
+      0%{height:60px;}
+      25%{height:65px;}
+      50%{height:60px;}
+      75%{height:55px;}
+      100%{height:60px;}
     }
     .shou2{
         width: 10px;
@@ -228,6 +236,14 @@
         background-color: rgb(34, 30, 20);
         transform: rotate(80deg);
         position: absolute;
+        animation:shou2 2s linear infinite;
+    }
+    @keyframes shou2{
+      0%{-webkit-transform:rotate(80deg);}
+      25%{-webkit-transform:rotate(60deg);}
+      50%{-webkit-transform:rotate(80deg);}
+      75%{-webkit-transform:rotate(100deg);}
+      100%{-webkit-transform:rotate(80deg);}
     }
     .ren{
         width: 1px;
